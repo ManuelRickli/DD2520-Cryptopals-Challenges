@@ -60,3 +60,4 @@ if __name__ == '__main__':
 
 	# parsing the prefix concatenated with the postfix yields "mail=A..&uid=1&role=admin"
 	print(parse(prefix + postfix)["encoded"])
+	# mail=AAAAAAAAAAAAAAA&uid=0&role=admin

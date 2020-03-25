@@ -48,3 +48,4 @@ if __name__ == '__main__':
 	iv = b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
 
 	print(cbc_decrypt(key, bl, iv).decode())
+	# I'm back and I'm ringin' the bell...

@@ -9,3 +9,5 @@ x2 = codecs.decode(n2, 'hex')
 xor = [x1[i] ^ x2[i] for i in range(len(x1))]
 
 print(codecs.encode(bytes(xor), 'hex').decode())
+
+# 746865206b696420646f6e277420706c6179

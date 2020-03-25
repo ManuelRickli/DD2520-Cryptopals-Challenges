@@ -61,4 +61,7 @@ if __name__ == '__main__':
 			resultingText = ''.join(result)
 
 	print(resultingText)
+	# Cooking MC's like a pound of bacon
+	
 	print(bestChar)
+	# X	

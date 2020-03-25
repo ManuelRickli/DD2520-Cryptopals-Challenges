@@ -1,6 +1,6 @@
 def addPadding(s, padding):
 	blocks = list()
-	blocks.append(s[:20])
+	blocks.append(s[:padding])
 
 	for i in range(1, len(s) // padding + 1):
 		blocks.append(s[padding * i:padding * i + padding])
@@ -30,3 +30,4 @@ if __name__ == '__main__':
 	blocks = addPadding(s, padding)
 
 	print(blocks)
+	# ['YELLOW SUBMARINEssss', 'ssssssssssssssssssss', 'ssssssssssssssssssss', 'ssss\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10']

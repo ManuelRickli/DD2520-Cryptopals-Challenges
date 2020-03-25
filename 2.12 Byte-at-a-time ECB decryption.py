@@ -26,7 +26,7 @@ if __name__ == '__main__':
 			break
 		cipher_size_old = cipher_size
 
-	if getNumberOfRepeatingBlocks(oracle(str.encode("A" * block_size))) > 0:
+	if getNumberOfRepeatingBlocks(oracle(str.encode("A" * block_size * 2))) > 0:
 		print("ECB mode detected\n")
 	else:
 		print("No ECB mode")
@@ -47,3 +47,4 @@ if __name__ == '__main__':
 				break
 
 	print(discovered_chars)
+	# Rollin' in my 5.0...

@@ -51,5 +51,10 @@ if __name__ == '__main__':
 		i += 1
 
 	print(bestText)
+	# Now that the party is jumping
+	
 	print(bestChar)
+	# 5
+	
 	print(bestLine)
+	# 170

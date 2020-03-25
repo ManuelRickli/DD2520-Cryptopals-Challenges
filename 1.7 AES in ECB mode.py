@@ -11,4 +11,6 @@ for line in file:
 bl = b''.join(bl)
 
 plaintext = obj.decrypt(bl)
+
 print(plaintext.decode())
+# I'm back and I'm ringin' the bell...

@@ -61,6 +61,12 @@ if __name__ == '__main__':
 			finalKey.append(c)
 
 		print("Possible key " + str(attempt + 1) + ": " + ''.join(finalKey))
+		# Possible key 1:  n
+		# Possible key 2:  n 
+		# Possible key 3: Terminator X: Bring the noise
+		# Possible key 4: n n  
+		# Possible key 5:  ni ni s n  ni i t
+
 
 		decoded = repeat_xor(bl, finalKey)
 		plainText = binascii.unhexlify(decoded)
@@ -72,4 +78,7 @@ if __name__ == '__main__':
 			bestResult = (finalKey, plainText)
 
 	print("Best result key: " + ''.join(bestResult[0]))
+	# Best result key: Terminator X: Bring the noise
+
 	print("Best result text: " + str(bestResult[1].decode()))
+	# I'm back and I'm ringin' the bell...

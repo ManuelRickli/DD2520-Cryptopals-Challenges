@@ -15,12 +15,17 @@ if __name__ == '__main__':
 	bl = list()
 
 	best = -1
-	bestLine = ""
+	bestLine = -1
 
+	i = 0
 	for line in file:
 		reps = getNumberOfRepeatingBlocks(line)
 		if reps > best:
 			best = reps
-			bestLine = line
+			bestLine = i
+			
+			
+		i += 1
 
 	print(bestLine)
+	# 132

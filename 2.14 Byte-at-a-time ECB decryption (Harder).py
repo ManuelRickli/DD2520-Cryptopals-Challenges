@@ -86,3 +86,4 @@ if __name__ == '__main__':
 				break
 
 	print(discovered_chars)
+	# Rollin' in my 5.0...
